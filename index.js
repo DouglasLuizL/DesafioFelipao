@@ -1,6 +1,18 @@
 let Heroi= [
     ["Enoque", lv=9200]
     ["Moises", lv=8700] 
-    ["Messias",lv=1000]
+    ["Messias",lv=9999999]
+];
+let Lv= [
+    ["Ferro"<999]
+    ["Bronze">1000]
+    ["Prata">2000]
+    ["Ouro">5000]
+    ["Platina">7000]
+    ["Ascendente">8000]
+    ["Imortal">9000]
+    ["Radiante">10000]
+
+
 ]
-console.log(Heroi(0));
+console.log(Heroi[1]);
