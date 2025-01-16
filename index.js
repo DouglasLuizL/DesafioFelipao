@@ -14,5 +14,5 @@ let Lv= [
     ["Radiante">10000]
 
 ]
-console.log (Heroi(1)+" Está no nivel "+lv)
+console.log (Heroi(1)+" Esta no nivel "+lv)
 
