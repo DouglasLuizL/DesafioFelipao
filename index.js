@@ -1,7 +1,7 @@
 let Heroi= [
     ["Enoque", lv=9200]
     ["Moises", lv=8700] 
-    ["Messias",lv=9999999]
+    ["Messias",lv=99999]
 ];
 let Lv= [
     ["Ferro"<999]
@@ -13,6 +13,6 @@ let Lv= [
     ["Imortal">9000]
     ["Radiante">10000]
 
-
 ]
-console.log(Heroi[1]);
+console.log (Heroi(1)+" Está no nivel "+lv)
+
