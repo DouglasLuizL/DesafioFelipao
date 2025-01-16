@@ -1,1 +1,1 @@
-console.log ("Herois");
+console.log (Deus)
