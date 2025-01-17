@@ -3,8 +3,10 @@ let Heroi= [
 ["Moises"]
 ["Mesias"]
 ]
+
 console.log (Heroi[1])
-    let lv=8700 
+    let lv=8700
+    lv++ 
 switch (lv){
     case ( lv <=999 ):
     console.log ("O Heroi"+ Heroi + "esta no nivel Ferro");
