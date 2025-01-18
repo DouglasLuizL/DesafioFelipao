@@ -1,36 +1,23 @@
-let Heroi= [
-    ["Enoque"]
-["Moises"]
-["Mesias"]
-]
+heroiMoises("Moises", 9522);
 
-console.log (Heroi[1])
-    let lv=8700
-    lv++ 
-switch (lv){
-    case ( lv <=999 ):
-    console.log ("O Heroi"+ Heroi + "esta no nivel Ferro");
-    break
-    case ( lv >=1000 ):
-        console.log ("O Heroi"+ Heroi + "esta no nivel Bronze");
-        break
-        case ( lv >=2000 ):
-            console.log ("O Heroi"+ Heroi + "esta no nivel Prata");
-            break
-            case ( lv >=5000 ):
-            console.log ("O Heroi"+ Heroi + "esta no nivel Ouro");
-            break
-            case ( lv >=7000 ):
-                console.log ("O Heroi"+ Heroi + "esta no nivel Platina");
-                break
-                case ( lv >=8000 ):
-                console.log ("O Heroi"+ Heroi + "esta no nivel Ascendente");
-                break
-                case ( lv >=9000 ):
-                console.log ("O Heroi"+ Heroi + "esta no nivel Imortal");
-                break
-                default:
-                case ( lv >=10000 ):
-                console.log ("O Heroi"+ Heroi + "esta no nivel Radiante");
-                
+function heroiMoises(nome, lv) {
+  console.log(nome + " está no nível " + lv);
+
+  if (lv <= 999) {
+    console.log("O herói " + nome + " é Ferro");
+  } else if (lv >= 1000 && lv < 2000) {
+    console.log("O herói " + nome + " é Bronze");
+  } else if (lv >= 2000 && lv < 5000) {
+    console.log("O herói " + nome + " é Prata");
+  } else if (lv >= 5000 && lv < 7000) {
+    console.log("O herói " + nome + " é Ouro");
+  } else if (lv >= 7000 && lv < 8000) {
+    console.log("O herói " + nome + " é Platina");
+  } else if (lv >= 8000 && lv < 9000) {
+    console.log("O herói " + nome + " é Ascendente");
+  } else if (lv >= 9000 && lv < 10000) {
+    console.log("O herói " + nome + " é Imortal");
+  } else if (lv >= 10000) {
+    console.log("O herói " + nome + " é Radiante");
+  }
 }
